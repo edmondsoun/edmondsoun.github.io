@@ -1,0 +1,73 @@
+
+
+        body {
+            padding: 0px;
+            margin: 0px;
+            background-size: 50%;
+            font-family: 'Space Grotesk', sans-serif;  
+        }
+
+        .index {
+            background-image: url('bg1.png');
+        }
+
+        .about {
+            background-image: url('bg2.png');
+        }
+
+        .contact {
+            background-image: url('bg3.png');
+        }
+
+        a {
+            font-weight: bold;
+        }
+
+        p {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .left {
+            flex: 30%;
+            text-align: center;
+        }
+
+        .right {
+            flex: 70%;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 0px 0px 0px 50px;
+        }
+
+        .nav {
+            display: flex;
+            text-align: center;
+            align-items: stretch;
+        }
+
+        .current {
+            padding: 10px;
+            flex: 1
+        }
+
+        .other-links {
+            flex: 0.5;
+            padding: 10px;
+            background-color: rgba(192, 192, 192, 0.50);
+
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+
+
+
+
+
