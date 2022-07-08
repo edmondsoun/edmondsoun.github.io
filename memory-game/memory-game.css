@@ -1,0 +1,54 @@
+/* you can add to or change this. */
+
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.shown {
+  visibility: visible;
+}
+
+#game {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 0px;
+  display: inline-block;
+  border: 1px solid #000000;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.hidden {
+  background-color: aliceblue;
+}
